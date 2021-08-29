@@ -1,0 +1,20 @@
+body{
+    background-color: #24365F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#number{
+    font-family: 'Righteous';
+    font-size: 150px;
+    color: orange;
+    -webkit-touch-callout: none;
+        -webkit-user-select: none;
+            -khtml-user-select: none;
+                -moz-user-select: none;
+                    -ms-user-select: none;
+                        -user-select: none;
+}
