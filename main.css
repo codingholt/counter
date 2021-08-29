@@ -1,9 +1,21 @@
 body{
-    background-color: #24365F;
+    background-color: #2d3b5a;
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-touch-callout: none;
+        -webkit-user-select: none;
+            -khtml-user-select: none;
+                -moz-user-select: none;
+                    -ms-user-select: none;
+                        -user-select: none;
 
+}
+
+#number{
+    position: absolute;
+    float: center;
+    
 }
 
 
@@ -11,10 +23,23 @@ body{
     font-family: 'Righteous';
     font-size: 150px;
     color: orange;
-    -webkit-touch-callout: none;
-        -webkit-user-select: none;
-            -khtml-user-select: none;
-                -moz-user-select: none;
-                    -ms-user-select: none;
-                        -user-select: none;
+    
+}
+
+#countup{
+    float: right;
+    width:  50%;
+    height: 100%;
+    text-align: center;
+    font-size: 150px;
+    color:rgba(0, 0, 0, 0.192);
+}
+
+#countdown{
+    float: left;
+    width:  50%;
+    height: 100%;
+    text-align: center;
+    font-size: 150px;
+    color:rgba(0, 0, 0, 0.192);
 }

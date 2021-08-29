@@ -6,3 +6,7 @@ function count(){
     document.getElementById("number").innerHTML = counter + "."
 }
 
+function countdown(){
+    counter = counter - 1
+    document.getElementById("number").innerHTML = counter + "."
+}
