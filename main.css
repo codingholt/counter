@@ -31,8 +31,7 @@ body{
     width:  50%;
     height: 100%;
     text-align: center;
-    font-size: 150px;
-    color:rgba(0, 0, 0, 0.192);
+    
 }
 
 #countdown{
@@ -40,6 +39,37 @@ body{
     width:  50%;
     height: 100%;
     text-align: center;
-    font-size: 150px;
+}
+
+#plus{
+    font-size: 100px;
     color:rgba(0, 0, 0, 0.192);
 }
+
+#minus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 100px;
+    color:rgba(0, 0, 0, 0.192);
+}
+
+button{
+    font-family: 'Space Mono', monospace;
+    position: absolute;
+    align-self: center;
+    top: 60%;
+    padding: 1em;
+    border-radius: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 15px;
+    border: none;
+    background-color: orange;
+    color: rgb(255, 255, 255)
+}
+
+button:hover {
+    background-color: rgb(255, 208, 0)
+  }
